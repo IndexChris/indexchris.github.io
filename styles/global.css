@@ -1,0 +1,26 @@
+html, body {
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /*background: linear-gradient(to bottom, #181818, #202020);
+    height: 100vh;*/
+}
+
+/*html {
+    background: linear-gradient(to bottom, #181818, #202020);
+    height: 100%;
+}*/
+
+body {
+    background: linear-gradient(to bottom, #181818, #202020);
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.page-container {
+    min-height: 100vh; /* Hace que el contenedor tenga al menos la altura de la ventana */
+    display: flex;
+    flex-direction: column; /* Organiza el contenido en columna */
+}

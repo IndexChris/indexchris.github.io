@@ -1,0 +1,31 @@
+main {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.main-h1 {
+    text-align: center;
+    color: rgb(240, 240, 240);
+}
+
+.main-h2 {
+    margin-top: 0px;
+    margin-bottom: 25px;
+    text-align: center;
+    color: rgb(240, 240, 240, 0.5);
+}
+
+.find-why-bt {
+    padding: 15px 25px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #f0f0f0;
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 15px;
+    border: 2px solid #007bff;
+    text-decoration: none;
+}

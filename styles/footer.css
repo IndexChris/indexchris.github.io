@@ -1,0 +1,20 @@
+/* Estilos para el footer */
+.footer {
+    color: rgba(240, 240, 240, 0.5); /* Color del texto */
+    text-align: center; /* Centra el texto */
+    padding: 20px; /* Espacio interno del footer */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-container {
+    max-width: 1200px; /* Ancho máximo del contenido del footer */
+    margin: 0 auto; /* Centra el contenido del footer */
+    padding: 0 20px; /* Espacio interno en los laterales */
+}
+
+.footer p {
+    margin: 0; /* Elimina el margen del párrafo */
+    font-size: 14px; /* Tamaño de la fuente */
+}
