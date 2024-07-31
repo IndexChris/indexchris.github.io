@@ -1,0 +1,33 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    height: 100vh;
+    background: linear-gradient(to bottom, black 25%, #1c1c1c 75%);
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.main-h1 {
+    color: rgb(240, 240, 240);
+}
+
+.main-h2 {
+    color: rgba(240, 240, 240, 0.5);
+    opacity: 0;
+    animation: none; /* Sin animación inicial */
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.visible {
+    animation: fadeIn 1s forwards; /* Aplica la animación al hacer visible */
+}
