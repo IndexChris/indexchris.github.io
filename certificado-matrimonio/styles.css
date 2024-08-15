@@ -1,0 +1,104 @@
+html, body {
+  margin: 0;
+  padding: 0; 
+}
+
+body {
+  height: 100vh;
+  background-image: url('background.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.content {
+  margin: 25px;
+  padding: 15px;
+  
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  
+  text-align: center;
+}
+
+header {
+  font-family: Times New Roman;
+  text-shadow: 2px 2px 4px rgba(200, 30, 120, 0.25);
+}
+
+main {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 25px;
+}
+
+.txt-1 {
+  margin-bottom: 50px;
+}
+
+.txt-2 {
+  margin-bottom: 150px;
+}
+
+.firmas {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-size: 15px;
+}
+
+.firma-novia {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.firma-novio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.highlight {
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  text-shadow: 2px 2px 4px rgba(200, 30, 120, 0.25);
+}
+
+.line {
+  width: 125px;
+  height: 1px;
+  background-color: black;
+}
+
+.sticker-container {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+
+.sticker {
+  margin-top: 35px;
+  width: 75px;
+  height: 75px;
+  border-radius: 10px;
+}
+
+.sticker1 {
+  transform: rotate(-7deg)
+}
+
+.sticker3 {
+  transform: rotate(7deg);
+}
+
+footer {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.25);
+  padding: 25px;
+}
