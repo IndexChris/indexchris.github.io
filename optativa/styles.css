@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: Arial, sans-serif;
+}
+
+main {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    
+}
+
+.barra-superior {
+    background-color: #03031c;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contenedor a {
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 15px;
+}
+
+.contenedor li {
+    list-style: none;
+    display: inline-block;
+}
+
+.logo {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+}
