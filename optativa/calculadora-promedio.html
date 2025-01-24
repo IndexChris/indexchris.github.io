@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .boldtext { font-weight: bold; }
+        .semestre {
+            background-color: grey;
+            padding: 10px;
+            display: inline-block;
+            border-radius: 8px;
+            margin-bottom: 10px;
+            margin-right: 10px;
+        }
+    </style>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+<body>
+    <div class="a"></div>
+    <script src="calculadora.js"></script>
+    <div class="navbar">
+        <h1 class="logo">Portal del Estudiante</h1>
+        <ul>
+            <li class="nb-el"><a href="#">Inicio</a></li>
+            <li class="nb-el"><a href="#">Herramientas</a></li>
+            <li class="nb-el"><a href="#">Sobre nosotros</a></li>
+            <li class="nb-el"><a href="#">Contacto</a></li>
+        </ul>
+    </div>
+    <div class="contenedor">
+        <h1>Sobre el programa:</h1>
+        <p>La calculadora se encargara de recopilar la informacion de tus calificaciones y en base a la calificacion de cada unidad, semestre e incluso ciclo escolar, sacara un promedio de tu calificacion final.</p>
+        <p><span class="boldtext">Instrucciones de uso: </span>Revisa tu kardex e ingresa la calificacion de tus unidades o semestre, dependiendo de el modo de evaluacion del profesor de dicha materia.</p>
+        <p class="prompt"><span class="boldtext">Aviso: </span>No te tomes muy en serio las opiniones del promedio.</p>
+        <hr>
+        <div class="opciones">
+            <button onclick="insertar()" class="boton">Agregar semestre</button>
+            <button onclick="quitar()" class="boton">Quitar semestre</button>
+            <button onclick="calcular()" class="boton">Calcular</button>
+            <p id="indicador">Semestres: 1</p>
+        </div>
+        <div class="semestre">
+            <h2>Semestre 1</h2>
+            <p>Ingrese su calificacion:</p>
+            <input type="number" step="0.01">
+        </div>
+        <h1 id="sacar-prom">Sacar promedio?</h1>
+        <p id="prom">Primero ingresa tus calificaciones!</p>
+        <button class="boton" onclick="calcular()">Calcular</button>
+    </div>
+</body>
+</html>
