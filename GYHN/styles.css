@@ -1,0 +1,119 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    background: linear-gradient(to bottom, rgb(36, 5, 8), rgb(82, 12, 17));
+    min-height: 100vh;
+    background-attachment: fixed;
+}
+
+.aviso {
+    width: 100%;
+    background-color: crimson;
+    color: white;
+    font-size: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.subrayado {
+    color: white;
+    text-underline-offset: 3px;
+    font-weight: bold;
+}
+
+.cerrar {
+    border: none;
+    background: none;
+}
+
+.cuerpo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    color: white;
+    font-family: monospace;
+    font-weight: bolder;
+    font-size: 25px;
+    text-align: center;
+
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    border: 3px solid #E6002E;
+    border-radius: 30px;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+
+.barra-sup {
+    display: block;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.boton-buscar {color:white;}
+
+.cuerpo-2 {
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 75px;
+    text-align: center;
+    color: white;
+}
+
+.cuerpo-2 h1 {
+    font-size: 50px;
+}
+
+.cuerpo-2 p {
+    font-size: 19px;
+    color: rgba(255, 255, 255, 0.75)
+}
+
+.div-botones {
+    display: inline-block;
+    margin-top: 35px;
+
+}
+
+.boton1 {
+    background-color: crimson;
+}
+
+.div-botones a {
+    font-weight: bold;
+    font-family: Arial;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    border: 3px solid crimson;
+    border-radius: 8px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+.footer {
+    margin-top: 200px;
+    background-color: rgb(53, 5, 14);
+    padding: 10px;
+    color: rgba(255, 255, 255, 0.25)
+}
+
+.opciones-footer {
+    list-style: none;
+}
